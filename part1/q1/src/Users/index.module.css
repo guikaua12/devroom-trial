@@ -1,0 +1,28 @@
+.tableWrapper {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tableWrapper table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.tableWrapper table thead {
+    border-bottom: 3px solid #c4c4c4;
+}
+
+.tableWrapper table thead th {
+    padding: 5px;
+    width: 250px;
+}
+
+.tableWrapper table tbody td {
+    text-align: center;
+}
+
+.tableWrapper table tbody tr:first-child td {
+    padding-top: 5px;
+}

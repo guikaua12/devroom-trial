@@ -1,0 +1,12 @@
+{
+  "name": "q5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "q5.js",
+  "scripts": {
+    "start": "node q5.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
