@@ -4,7 +4,7 @@ import styles from './index.module.css';
 import { FaSpinner } from 'react-icons/fa';
 
 // Create a ReactJS component that displays a list of users retrieved from the following API endpoint: https://jsonplaceholder.typicode.com/users. The component should display the user's name, email, and phone number. Use the fetch() method to retrieve the data from the API.
-export default function Users() {
+export default function UsersTable() {
     const [users, setUsers] = useState<Array<User>>([]);
     const [loading, setLoading] = useState<boolean>(true);
 
