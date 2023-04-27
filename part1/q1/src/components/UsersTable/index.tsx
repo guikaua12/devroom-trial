@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { User } from '../constants/types/User';
+import { User } from '../../constants/types/User';
 import styles from './index.module.css';
 import { FaSpinner } from 'react-icons/fa';
 
