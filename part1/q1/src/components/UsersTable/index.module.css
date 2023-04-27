@@ -1,0 +1,55 @@
+.tableWrapper {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tableWrapper table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.tableWrapper table thead {
+    border-bottom: 3px solid #c4c4c4;
+}
+
+.tableWrapper table thead th {
+    padding: 5px;
+    width: 250px;
+}
+
+.tableWrapper table tbody td {
+    text-align: center;
+}
+
+.tableWrapper table tbody tr:first-child td {
+    padding-top: 5px;
+}
+
+.tableWrapper .loading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.tableWrapper .loading svg {
+    animation-name: loading;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
