@@ -6,7 +6,7 @@ A set of challenges to apply for Web Developer Freelancer in DevRoom.
 - [x] Question 1
   Create a ReactJS component that displays a list of users retrieved from the following API endpoint: https://jsonplaceholder.typicode.com/users. The component should display the user's name, email, and phone number. Use the fetch() method to retrieve the data from the API.
 
-- [ ] Question 2
+- [x] Question 2
   Create a ReactJS component that displays a form for adding new users to the list. The form should include fields for the user's name, email, and phone number. When the user submits the form, the new user should be added to the list displayed in the component from Question 1. Use the POST method to add the new user to the API.
 
 ## Part 2: Testing
