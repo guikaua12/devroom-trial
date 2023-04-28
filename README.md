@@ -11,7 +11,7 @@ A set of challenges to apply for Web Developer Freelancer in DevRoom.
 
 ## Part 2: Testing
 
-- [ ] Question 3
+- [x] Question 3
   Write unit tests for the ReactJS component created in Question 1. The tests should include checks for the correct display of the user's name, email, and phone number, as well as error handling for failed API requests.
 
 - [ ] Question 4
