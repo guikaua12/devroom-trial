@@ -1,0 +1,15 @@
+.alert {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert.error svg {
+    color: red;
+}
+
+.alert.error.background {
+    background-color: #F1DEDE;
+    color: #B74D46;
+}
